@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Theme cho ứng dụng -->
+    <style name="Base.Theme.OnBoardingFlow" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="Theme.OnBoardingFlow" parent="Base.Theme.OnBoardingFlow" />
+
+    <style name="Theme.OnBoardingFlow.MaterialComponents" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="colorAccent">#2196F3</item>
+    </style>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:src="@drawable/task"
+        android:contentDescription="Onboarding 1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Easy Time Management"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:lineSpacingExtra="7dp"
+        android:text="With management based on priority and daily tasks, it will give you convenience in managing and determining the tasks that must be done first."
+        android:textColor="#666666"
+        android:textSize="16sp" />
+
+</LinearLayout>
