@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/forgotPasswordFragment">
+
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.example.smarttasks.ui.ForgotPasswordFragment"
+        android:label="ForgotPasswordFragment">
+        <action
+            android:id="@+id/action_forgotPasswordFragment_to_verifyCodeFragment"
+            app:destination="@id/verifyCodeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/verifyCodeFragment"
+        android:name="com.example.smarttasks.ui.VerifyCodeFragment"
+        android:label="VerifyCodeFragment">
+        <action
+            android:id="@+id/action_verifyCodeFragment_to_createPasswordFragment"
+            app:destination="@id/createPasswordFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/createPasswordFragment"
+        android:name="com.example.smarttasks.ui.CreatePasswordFragment"
+        android:label="CreatePasswordFragment">
+        <action
+            android:id="@+id/action_createPasswordFragment_to_confirmFragment"
+            app:destination="@id/confirmFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/confirmFragment"
+        android:name="com.example.smarttasks.ui.ConfirmFragment"
+        android:label="ConfirmFragment">
+        <action
+            android:id="@+id/action_confirmFragment_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment"
+            app:popUpTo="@id/forgotPasswordFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+</navigation>
