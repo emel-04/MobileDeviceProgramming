@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "644164678407",
+    "project_id": "uth-smarttasks-8e1d1",
+    "storage_bucket": "uth-smarttasks-8e1d1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644164678407:android:e8c456ad27c541e0468ba2",
+        "android_client_info": {
+          "package_name": "com.example.onboardingflow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644164678407-ec9s5j3do2v24ob67dgqjvab5a8dk8nr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onboardingflow",
+            "certificate_hash": "625f9e12d47ebce52654cf82b4d80fe7940d057f"
+          }
+        },
+        {
+          "client_id": "644164678407-so44c316km577mmgir43v48ek5k3fjss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0CbC-w1XlJWleFrrQzCJtH0FpIwz1ypg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644164678407-so44c316km577mmgir43v48ek5k3fjss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
